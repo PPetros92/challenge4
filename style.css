@@ -79,7 +79,7 @@ body {
 
 /*MEDIA QUERIES*/
 
-@media screen and (max-width:456px) {
+@media screen and (max-width:460px) {
     body {
         padding: 5% 9%;
     }
