@@ -1,0 +1,216 @@
+/*
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+### Primary
+
+- Cyan: hsl(179, 62%, 43%)
+- Bright Yellow: hsl(71, 73%, 54%)
+
+### Neutral
+
+- Light Gray: hsl(204, 43%, 93%)
+- Grayish Blue: hsl(218, 22%, 67%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 16px
+
+### Font
+
+- Family: [Karla](https://fonts.google.com/specimen/Karla)
+- Weights: 400, 700
+*/
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+    padding: 5% 30%;
+    position: relative;
+}
+
+
+/*PRVA CAST*/
+.maly_header {
+    background-color: white;
+    padding: 5% 6%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.maly_header h1 {
+    color: hsl(179, 62%, 43%);
+}
+.maly_header h2 {
+    color: hsl(71, 73%, 54%);
+}
+.maly_header p {
+    padding-right: 12%;
+    color: #00000073;
+}
+
+
+/*casti L / R*/
+.container {
+    position: relative;
+}
+.lava_cast {
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    padding: 5%;
+    box-sizing: border-box;
+    padding-bottom: 7%;
+    border-right: 1px solid hsl(179, 62%, 35%);
+    color: white;
+    border-bottom-left-radius: 10px;
+}
+.lava_cast h4 {
+    font-size: 35px;
+    margin: 1% 0;
+}
+.sedak {
+    color: rgba(255, 255, 255, 0.486);
+    font-size: 16px;
+}
+.lava_cast a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: inherit;
+    padding: 5% 5%;
+    background-color: hsl(71, 73%, 54%);
+    border-right: 7px;
+}
+
+.prava_cast {
+    background-color: hsla(178.7, 61.8%, 43.1%, 0.78);
+    width: 50%;
+    padding: 5%;
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-bottom: 6%;
+    border-bottom-right-radius: 10px;
+
+}
+
+.prava_cast h3,
+.prava_cast p {
+    color: white;
+    padding-right: 35%;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width:454px) {
+    body {
+        padding: 5% 9%;
+    }
+    .maly_header p {
+        padding:0;
+        line-height: 25px;
+        margin-bottom: 8%;
+    }
+    .maly_header h2 {
+        font-size: 19px;
+    }
+
+    /*container*/
+    /*lava_cast*/
+    .lava_cast {
+        width: 100%;
+        border-bottom-left-radius: 0;
+        border-right: none;
+    }
+    .lava_cast a {
+        margin: 8% 0;
+    }
+    /*prava_cast*/
+    .prava_cast {
+        position: unset;
+        width: 100%;
+        border-bottom-left-radius: 10px;
+    }
+    .prava_cast p {
+        line-height: 25px;
+    }
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.koka {
+    display: none;
+}
